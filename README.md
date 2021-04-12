@@ -16,7 +16,9 @@
 전체적인 개발계획을 수립하고, 디바이스 제작과 데이터 학습을 주로 시도하였다.
 #### 2.2 디바이스 제작과정
 초기 아이디어였던 웨어러블 디바이스에 포커싱을 맞추었다. 주로 허리 질환관련 자세분류를 위해 상의에 센서를 박을 생각이였다.
+
 ![예상](https://user-images.githubusercontent.com/44052428/114373133-409bab00-9bbd-11eb-86af-cf2616144fd2.png)
+
 의상이 신체에 밀착되어야 정밀한 센서값을 출력할 수 있으므로 자세 교정용 조끼를 구매하였다.
 의상 내에는 총 8개의 센서를 장착할 것이며 조끼에 들어갈 회로는 다음과 같다. (진짜 대충 만들었다...)
 ![회로설계](https://user-images.githubusercontent.com/44052428/114373321-6e80ef80-9bbd-11eb-83aa-82a2acb444f4.jpg)
@@ -46,6 +48,7 @@ Hidden layer의 활성함수에 따른 학습결과를 그림으로 보인다.
 ![결과](https://user-images.githubusercontent.com/44052428/114376194-5ced1700-9bc0-11eb-962c-fdd4cd298cba.png)
 
 ELU 레이어의 성능이 가장 좋았으며 Train_accuracy와 loss는 다음과 같더라.
+
 ![ELU](https://user-images.githubusercontent.com/44052428/114376188-5bbbea00-9bc0-11eb-8ce0-430ee74663f8.png)
 어플리케이션을 통한 실시간 자세 결과 조회 서비스와 누적 자세 분석 서비스도 만들었다.
 
